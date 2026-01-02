@@ -1005,7 +1005,7 @@ footer {
     }
 
     .header-brand-small {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .header-menu-container {
@@ -1369,4 +1369,5 @@ footer {
         padding: 10px 12px 0;
         line-height: 1.4;
     }
+
 }
