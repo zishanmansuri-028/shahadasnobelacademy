@@ -69,6 +69,7 @@ classSelect.addEventListener("change", function () {
   else if (selectedText.includes("10th")) marksLabel.textContent = "Class 9th Percentage * (In case the exam is not completed, Enter 0)";
   else if (selectedText.includes("11th")) marksLabel.textContent = "Class 10th Percentage * (In case the exam is not completed, Enter 0)";
   else if (selectedText.includes("12th")) marksLabel.textContent = "Class 10th Percentage * (In case the exam is not completed, Enter 0)";
+  else if (selectedText.includes("Neet")) marksLabel.textContent = "Class 12th Percentage * (In case the exam is not completed, Enter 0)";
   else marksLabel.textContent = "Previous Class Percentage * (In case the exam is not completed, Enter 0)";
 });
 
@@ -221,4 +222,5 @@ document.getElementById('resetBtn').onclick = () => {
         form.reset();
         ageInput.value = '';
     }
+
 };
